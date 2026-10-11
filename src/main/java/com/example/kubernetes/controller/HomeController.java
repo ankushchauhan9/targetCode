@@ -10,6 +10,8 @@ public class HomeController {
 
     public String anotherMessage = "This is another message to test cherry pick";
 
+    public String thirdMessage = "This is a third message to test cherry pick";
+
     @GetMapping("/")
     public String home() {
         return "Welcome to the Home Page!";
